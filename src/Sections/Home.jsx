@@ -25,18 +25,21 @@ function Home() {
         width: "100%",
         transition: "background-image 1s ease-in-out", // smooth fade
       }}
-      className="pt-[60px]"
+      className="pt-[60px] "
     >
       <div className="h-[90vh] pb-10 p-10 gap-5 flex flex-col justify-end">
         <h1
           className="text-9xl"
-          style={{ color: "white", fontFamily: "Merriweather, serif" }}
+          style={{
+            color: "white",
+            fontFamily: "Manufacturing Consent, cursive",
+          }}
         >
           X-factor Salon
         </h1>
         <h3
           className="text-4xl"
-          style={{ color: "white", fontFamily: "Montserrat, sans-serif" }}
+          style={{ color: "white", fontFamily: "Playfair Display, serif" }}
         >
           WHERE BEAUTY MEETS EXCELLENCE
         </h3>

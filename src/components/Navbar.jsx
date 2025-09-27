@@ -5,7 +5,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="fixed w-full text-white p-5 pl-[10vw] pr-[10vw] h-[8vh] bg-white/30 backdrop-blur-md flex justify-between items-center z-50">
+    <div className="fixed w-full text-black p-5 pl-[10vw] pr-[10vw] h-[8vh] bg-white flex justify-between items-center z-50">
       {/* Logo */}
       <div
         className="text-[30px] font-bold"
@@ -17,31 +17,31 @@ function Navbar() {
       {/* Desktop Menu */}
       <div className="hidden md:flex w-[35%] justify-between items-center">
         <div
-          className="hover:text-black hover:border-black hover:border-b-2 border-white transform hover:-translate-y-1 transition ease-in-out duration-900 cursor-pointer"
+          className="hover:text-black hover:border-black hover:border-b-2 border-white transform hover:-translate-y-1 transition ease-in-out duration-300 cursor-pointer"
           style={{ fontFamily: "Bubblegum Sans, cursive" }}
         >
           About
         </div>
         <div
-          className="hover:text-black hover:border-black hover:border-b-2 border-white transform hover:-translate-y-1 transition ease-in-out duration-900 cursor-pointer"
+          className="hover:text-black hover:border-black hover:border-b-2 border-white transform hover:-translate-y-1 transition ease-in-out duration-300 cursor-pointer"
           style={{ fontFamily: "Bubblegum Sans, cursive" }}
         >
           Location
         </div>
         <div
-          className="hover:text-black hover:border-black hover:border-b-2 border-white transform hover:-translate-y-1 transition ease-in-out duration-900 cursor-pointer"
+          className="hover:text-black hover:border-black hover:border-b-2 border-white transform hover:-translate-y-1 transition ease-in-out duration-300 cursor-pointer"
           style={{ fontFamily: "Bubblegum Sans, cursive" }}
         >
           Services
         </div>
         <div
-          className="hover:text-black hover:border-black hover:border-b-2 border-white transform hover:-translate-y-1 transition ease-in-out duration-900 cursor-pointer"
+          className="hover:text-black hover:border-black hover:border-b-2 border-white transform hover:-translate-y-1 transition ease-in-out duration-300 cursor-pointer"
           style={{ fontFamily: "Bubblegum Sans, cursive" }}
         >
           Gallery
         </div>
         <div
-          className="hover:text-black hover:border-black hover:border-b-2 border-white transform hover:-translate-y-1 transition ease-in-out duration-900 cursor-pointer"
+          className="hover:text-black hover:border-black hover:border-b-2 border-white transform hover:-translate-y-1 transition ease-in-out duration-300 cursor-pointer"
           style={{ fontFamily: "Bubblegum Sans, cursive" }}
         >
           Media
